@@ -36,4 +36,48 @@ body{
     color:white;
     line-height:1.8;
     font-size:18px;
+}@media (max-width: 768px) {
+
+    body{
+        overflow-x:hidden;
+    }
+
+    h1{
+        font-size:2.3rem !important;
+    }
+
+    h2{
+        font-size:1.6rem !important;
+    }
+
+    p{
+        font-size:1rem !important;
+        line-height:1.6;
+    }
+
+    .container,
+    .card,
+    .story-container,
+    .letter-container,
+    .surprise-container{
+        width:92% !important;
+        max-width:92%;
+        padding:20px !important;
+        margin:auto;
+    }
+
+    img{
+        max-width:100%;
+        height:auto;
+    }
+
+    iframe{
+        width:100% !important;
+        aspect-ratio:16/9;
+        height:auto !important;
+    }
+
+    button{
+        width:100%;
+    }
 }
