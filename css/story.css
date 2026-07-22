@@ -1,0 +1,39 @@
+body{
+    overflow-y:auto;
+}
+
+.content{
+    width:800px;
+    margin:120px auto;
+    text-align:center;
+}
+
+.timeline{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+    margin-top:40px;
+}
+
+.memory{
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(12px);
+    padding:25px;
+    border-radius:20px;
+    transition:.3s;
+}
+
+.memory:hover{
+    transform:translateY(-5px);
+}
+
+.memory h2{
+    color:#ffd4ea;
+    margin-bottom:10px;
+}
+
+.memory p{
+    color:white;
+    line-height:1.8;
+    font-size:18px;
+}
